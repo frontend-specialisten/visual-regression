@@ -29,4 +29,4 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           exitZeroOnChanges: true # 👈 Option to prevent the workflow from failing
           buildScriptName: 'build'
-          storybookBuildDir: 'dist/storybook/designsystem'
+          outputDir: 'dist/storybook/designsystem'
